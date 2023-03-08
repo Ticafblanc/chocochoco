@@ -1,0 +1,112 @@
+/*general style*/
+html {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+h1, h2 {
+    font-family: 'Neuton', serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1em 0;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    padding: .5em 0 0;
+    text-align: center;
+}
+
+a, a:link, a:visited a:focus {
+    color: inherit;
+    outline: none;
+}
+
+/*Headers style*/
+header {
+    background-color: #eddfca;
+    color: #301c15;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #301c15;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1em 2em;
+    border: 5px outset #4f3126;
+}
+
+nav a:hover, nav a:focus {
+    background-color: #6b493d;
+}
+
+nav a:active {
+    border: 5px inset #4f3126;
+}
+
+/*main style*/
+
+main {
+    margin: 2em;
+    color: #301c15;
+}
+
+.background_main {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main a {
+    display: inline-block;
+    border: 2px solid #4f3126;
+    border-radius: .2em;
+    padding: 2em;
+    margin: 1em;
+}
+
+main a img {
+    width: 23em;
+    height: 15em;
+}
+
+main a:hover, main a:focus {
+    box-shadow: 0 0 1em #301c15;
+}
+
+/*footers style*/
+footer {
+    padding: 1em 0;
+    background-color: #301c15;
+    color: #fff;
+}
+
+footer p {
+    font-size: 1.1em;
+    text-align: center;
+    margin: 1em 1em
+}
+
+.Matthis {
+    font-weight: bold;
+}
